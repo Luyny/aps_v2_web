@@ -7,24 +7,19 @@
 //     document.write(lista+"<br>")
 // }
 // document.write("<br> SOMA =" + soma)
+// n(n+1)
 
 
 
 
-let display = true
 let maior = undefined
 let menor = undefined
-
-novaNota = function (nome,nota) {
-    if (display) {
-        table.innerHTML = `<table border="1" class="table mt-2" id="tabela"><tr><th>Nome</th><th>Nota</th></tr></table>`
-        display = false
-    }
+let novaNota = function (nome,nota) {
+    tabela.style.display ="table"
+    maior_menor.style.display = "inline"
     tabela.innerHTML += `<tr><td>${nome}</td><td>${nota}</td></tr>`
     if (maior < nota || maior == undefined) maior = nota
-
     if (menor > nota || menor == undefined) menor = nota
-
     nota_maior.innerHTML = `${maior}`
     nota_menor.innerHTML = `${menor}`
 }
