@@ -1,3 +1,31 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("/fonts/Montserrat-Regular.ttf") format("truetype");
+}
+
 #tabela,#maior_menor{
-    display:table
+    display:none
+}
+
+#nav{
+    background-color: #3b7d8d;
+}
+
+a,#nav{
+    color:#9dd7e4;
+}
+
+a:hover{
+    background-color:#438899;
+    border-radius: 5px;
+    color: inherit
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.active{
+    background-color:#316572;
+
 }
