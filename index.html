@@ -14,8 +14,8 @@
 
 <body>
     <!--Navigation bar-->
-    <nav id="nav" class="navbar navbar-expand-lg mb-2">
-        <a class="navbar-brand " href="#"><img src="/img/redentor1.png" width="125" height="30"></a>
+    <nav id="nav" class="navbar navbar-expand-lg mb-2 py-1 px-2">
+        <a class="navbar-brand " href="index.html"><img src="/img/redentor1.png" width="125" height="30"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -23,7 +23,7 @@
         <div class="nav-item dropdown ">
             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
                 aria-expanded="false">Luyny Fernandes Faria - 1801957</a>
-            <div class="dropdown-menu px-3 ml-5">
+            <div class="dropdown-menu">
                 <a class="dropdown-item" target="_blank" href="https://instagram.com/luyny_f"><img
                         src="/img/instagram.png" width="20"> Instagram</a>
                 <a class="dropdown-item" href="mailto:luynyfaria@gmail.com"><img src="/img/gmail.png" width="20" alt="">
@@ -33,14 +33,11 @@
                         width="20"> GitHub </a>
             </div>
         </div>
+        <div class="navbar-text pl-5 ml-5"> APS 2 Projeto de Sistemas em Internet I</div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
+
                 <li class="nav-item">
-                    <div class="navbar-text mr-5 pr-5"><b> APS 2 Projeto de Sistemas em Internet I</b> </div>
-
-                </li>
-
-                <li class="nav-item ml-5">
                     <a class="nav-link active border rounded " href="/index.html">Atividade 1</a>
                 </li>
                 <li class="nav-item ">
@@ -61,7 +58,7 @@
             <div class="input-group-prepend">
                 <div class="input-group-text">N</div>
             </div>
-            <input type="text" class="form-control" id="numero" oninput="novaSoma(Number(numero.value))"
+            <input type="number" class="form-control" id="numero" oninput="novaSoma(Number(numero.value))"
                 placeholder="Insira um número">
         </div>
         <table class="table table-bordered table-hover text-center w-50 mx-auto mt-2" id="tabela"></table>
