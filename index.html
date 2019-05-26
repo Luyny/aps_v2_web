@@ -49,21 +49,30 @@
     </nav>
     <!--end of Navigation bar-->
 
-    <div class="card col-md-5 m-auto p-2">
+    <!--    position-static
+            position-relative
+            position-absolute
+            position-fixed
+            position-sticky
+    -->
+    <div id="alerta">
+
+    </div>
+    <div class="card col-md-5 m-auto p-2 position-static">
         <h3 class="ml-1">Atividade 1</h3>
         <h6 class="ml-1">Dado um número inteiro positivo <b>N</b> imprimir os <b>N</b> primeiros naturais pares e
             determinar a soma
             dos valores.</h6>
-        <div class="input-group">
-            <div class="input-group-prepend">
+            <div class="input-group">
+                <div class="input-group-prepend">
                 <div class="input-group-text">N</div>
             </div>
             <input type="number" class="form-control" id="numero" oninput="novaSoma(Number(numero.value))"
-                placeholder="Insira um número">
+            placeholder="Insira um número">
         </div>
         <table class="table table-bordered table-hover text-center w-50 mx-auto mt-2" id="tabela"></table>
-
-
+        
+        
     </div>
     
     <script src="javascript.js"></script>

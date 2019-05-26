@@ -49,6 +49,7 @@
         </div>
     </nav>
     <!--end of Navigation bar-->
+    <div id="alerta"></div>
     <div class="card w-50 col-md-5 p-2 m-auto ">
         <h3 class="ml-1">Atividade 2</h3>
         <h6 class="ml-1">Dado nome e nota de cada aluno de uma turma. <br>
@@ -59,7 +60,7 @@
                 <div class="input-group-text ">Nome</div>
             </div>
 
-            <input type="text" class="form-control" id="nome">
+            <input type="text" class="form-control" id="nomeForm">
         </div>
 
         <div class="input-group my-1 px-1">
@@ -67,10 +68,10 @@
                 <div class="input-group-text pr-4">Nota</div>
             </div>
 
-            <input type="number" class="form-control" id="nota">
+            <input type="number" class="form-control" id="notaForm" placeholder="Insira um valor entre 0 e 10">
 
             <button type="submit" class="btn border w-100 m-auto bg-light"
-                onclick="novaNota(nome.value,Number(nota.value))">Confirmar</button>
+                onclick="novaNota(nomeForm.value,Number(notaForm.value))">Confirmar</button>
         </div>
         <div class="p-2 rounded bg-secondary text-light m-1" id="maior_menor">
             <div class="float-left col-6">Maior nota: <b><span id="nota_maior"></span></b> </div>
