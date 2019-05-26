@@ -11,6 +11,7 @@
     background-color: #3b7d8d;
 }
 
+
 a,#nav{
     color:#9dd7e4;
 }
@@ -29,3 +30,7 @@ body{
     background-color:#316572;
 
 }
+@media screen and (max-width: 800px) {
+
+}
+ 

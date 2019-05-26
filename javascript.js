@@ -1,14 +1,12 @@
 //Exercicio 1 - SOMA
-alert.innerHTML = "olá"
 novaSoma = function (n) {
-    if (n <= 0) {
-        setTimeout(() => alerta.innerHTML = '', 2000)
+    if (n < 0) {
         alerta.innerHTML = ` 
         <div class="ml-2 alert alert-danger float-left position-absolute w-25">        
         Insira um número válido
         </div>`
+        setTimeout(() => alerta.innerHTML = '', 2000)
     } else {
-        // alerta.innerHTML = ''
         let soma = 0
         n != '' ? tabela.style.display = "table" : tabela.style.display = "none"
         tabela.innerHTML = ` <tr class="thead-light "><th>N</th><th>Soma</th></tr>`
@@ -29,7 +27,7 @@ let novaNota = function (nome, nota) {
         notaForm.value = ''
         alerta.innerHTML = ` 
         <div class="ml-2 alert alert-danger float-left position-absolute w-25">        
-        Preencha corretamente os campos e tente novamente
+            Preencha corretamente todos os campos e tente novamente
         </div>`
         setTimeout(() => alerta.innerHTML = '', 2000)
     }
