@@ -1,8 +1,9 @@
+/* Fonte usada no site */
 @font-face {
     font-family: "Montserrat";
     src: url("/fonts/Montserrat-Regular.ttf") format("truetype");
 }
-
+/* Esconde a tabela  */
 #tabela,#maior_menor{
     display:none
 }
@@ -11,11 +12,9 @@
     background-color: #3b7d8d;
 }
 
-
 a,#nav{
     color:#9dd7e4;
     padding-left: 5px !important;
-
 }
 
 a:hover{
@@ -30,9 +29,4 @@ body{
 
 .active{
     background-color:#316572;
-
 }
-@media screen and (max-width: 800px) {
-
-}
- 

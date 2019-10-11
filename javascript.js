@@ -47,9 +47,9 @@ var menor = undefined
 let novaNota = function (nome, nota) {
     //Verifica se o valor inserido é valido e chama a funcao caso nao seja
     if (nome == '') valorIncorreto(nomeForm, "Nome Vazio")
-    if (nota < 0 || nota > 10) valorIncorreto(notaForm, "Nota inválida")
+    if (nota < 0 || nota > 100) valorIncorreto(notaForm, "Nota inválida")
     
-    if (nome != '' && nota >= 0 && nota <= 10) {
+    if (nome != '' && nota >= 0 && nota <= 100) {
         //Exibe a tabela que estava escondida
         tabela.style.display = "table"
         maior_menor.style.display = "inline"
