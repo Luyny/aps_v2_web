@@ -9,7 +9,7 @@ if (navbar.innerHTML == '1') {
 
 // NavBar
 navbar.innerHTML = `<nav id="nav" class="navbar navbar-dark navbar-expand-md mb-2 py-1 px-2">
-<a class="navbar-brand m-auto " href="index.html"><img src="/img/redentor1.png" width="125" height="30"></a>
+<a class="navbar-brand m-auto " href="index.html"><img src="img/redentor1.png" width="125" height="30"></a>
 
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
     aria-controls="navbarTogglerDemo" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,22 +22,22 @@ navbar.innerHTML = `<nav id="nav" class="navbar navbar-dark navbar-expand-md mb-
             Faria - 1801957</a>
         <div class="dropdown-menu ml-5">
             <a class="dropdown-item" target="_blank" href="https://instagram.com/luyny_f"><img
-                    src="/img/instagram.png" width="20"> Instagram</a>
-            <a class="dropdown-item" href="mailto:luynyfaria@gmail.com"><img src="/img/gmail.png" width="20"
+                    src="img/instagram.png" width="20"> Instagram</a>
+            <a class="dropdown-item" href="mailto:luynyfaria@gmail.com"><img src="img/gmail.png" width="20"
                     ></img>
                 E-mail</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" target="_blank" href="https://github.com/luyny"><img src="/img/github.png"
+            <a class="dropdown-item" target="_blank" href="https://github.com/luyny"><img src="img/github.png"
                     width="20"></img> GitHub </a>
         </div>
     </div>
     <div class="ml-auto">
         <ul class=" navbar-nav">
             <li class="nav-item ">
-                <a class="nav-link ${at1}" href="/index.html">Atividade 1</a>
+                <a class="nav-link ${at1}" href="./index.html">Atividade 1</a>
             </li>
             <li class="nav-item ${at2}">
-                <a class="nav-link" href="/atividade2.html">Atividade 2</a>
+                <a class="nav-link" href="./atividade2.html">Atividade 2</a>
             </li>
         </ul>
     </div>
