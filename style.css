@@ -1,7 +1,7 @@
 /* Fonte usada no site */
 @font-face {
     font-family: "Montserrat";
-    src: url("/fonts/Montserrat-Regular.ttf") format("truetype");
+    src: url("./fonts/Montserrat-Regular.ttf") format("truetype");
 }
 /* Esconde a tabela  */
 #tabela,#maior_menor{
